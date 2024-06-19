@@ -14,26 +14,28 @@ h2, h4, p{
 }
 
 body {
-    background-color: #ba4646;
+    background-color: rgb(229, 239, 245)
 }
 
 button {
     background-color: rgb(192, 223, 52);
     color: #ffff;
-    width: 80%;
-    height: 35px;
+    width: 75%;
+    height: 38px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     display: block;
     margin: 0 auto;
+    position: relative;
+    top: 65px;
 }
 
 .main-square{
     width: 600px;
     height: 350px;
     border: 3px solid black;
-
+    border-radius: 5px;
 }
 
 .top-rectangle{
@@ -53,7 +55,7 @@ button {
     display: inline-block;
     width: 50%;
     height: 100%;
-    background-color: #53c4ea;
+    background-color: rgba(42, 178, 175, 0.856)
 }
 
 .left-square{
@@ -82,14 +84,43 @@ button {
 .p-top-rectangle{
     color: rgb(152, 166, 189);
     position: relative;
-    top: 35px;
+    top: 40px;
     left: 15px;
     font-size: 15px;
 }
 
 /*Design for bottom-left-square starts hear*/
 
+.p1-left-square, .p2-left-square, .p3-left-square, span{
+    color: #ffff;
+    position: relative;
+}
 
+.p1-left-square{
+    font-weight:bold;
+    top: 25px;
+    left: 25px;
+}
+
+.p2-left-square{
+    top: 38px;
+    left: 25px;
+    color: rgba(229, 239, 245, 0.856);
+    font-size: 14px;
+}
+
+.p3-left-square{
+    top: 43px;
+    left: 25px;
+    font-size: 15px;
+
+}
+
+span{
+    font-weight: bolder;
+    font-size: 25px;
+    color: #ffff;
+}
 
 
 

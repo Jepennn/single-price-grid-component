@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel= "stylesheet" href="style.css"></link>
+  
+  <!--Adding google font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Single Price Grid Component</title>
 
@@ -17,28 +23,33 @@
 <body>
   <div class="main-square">
     <div class="top-rectangle">
-      <h1>Join our community</h1>
-      <p>30-day, hassle-free money back guarantee</p>
+      <h2 class="main-heading">Join our community</h2>
+      <h4>30-day, hassle-free money back guarantee</h4>
       <p>Gain access to our full library of tutorials along with expert code reviews. 
         Perfect for any developers who are serious about honing their skills.</p>
     </div>
-    <div class="botton-rectangle">
+    <div class="bottom-rectangle">
       
-      <!--Left square starts hear-->
+      <!--Left square starts hear, inline-blocks is special, can't have whitespaces between them-->
       <div class="left-square">
         <p>Monthly Subscription</p>
         <p><span>$29</span>per month</p>
         <p>Full access for less than 1$ a day</p>
         <button>Sign up</button>
-      </div>
-
-      <!--Right square starts hear-->
-      <div class="right-square">
-
+      </div><!--Right square starts hear--><div class="right-square">
+        <h4>Why us</h4>
+        <ul>
+                 <li>Tutorials by industry experts</li>
+                 <li>Peer and expert code review</li>
+                 <li>Coding experience</li>
+                 <li>Access to our github repos</li>
+                 <li>Community forum</li>
+                 <li>Flashcard decks</li>
+                 <li>New videos every week</li>
+        </ul>
       </div>
     </div>
   </div>
-    
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

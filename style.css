@@ -45,6 +45,12 @@ button {
     margin: 0 auto;
     position: relative;
     top: 65px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #45a049; /* Mörkare grön */
+    color: white;
 }
 
 .main-square{

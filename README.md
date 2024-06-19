@@ -8,5 +8,5 @@
 
 ### Useful resources
 
-Documentation: https://developer.mozilla.org/en-US/
-Task informatiom: https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc
+- Documentation: https://developer.mozilla.org/en-US/
+- Task informatiom: https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc

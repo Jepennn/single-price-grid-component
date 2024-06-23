@@ -2,7 +2,7 @@
 
 ### Built with
 
-- Semantic HTML5
+- HTML5
 - CSS custom properties
 - Flexbox
 
